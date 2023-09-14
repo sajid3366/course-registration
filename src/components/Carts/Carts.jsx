@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
+import PropTypes from 'prop-types';
 import Cart from "../Cart/Cart";
 
-const Carts = () => {
+const Carts = ({handleAddToList}) => {
     const [carts, setCarts] = useState([]);
 
     useEffect(() => {
@@ -16,11 +17,17 @@ const Carts = () => {
                 carts.map(cart => <Cart 
                     key={cart.id}
                     cart={cart}
+                    handleAddToList={handleAddToList}
                     ></Cart>)
             }
 
         </div>
     );
 };
+
+
+Carts.propTypes ={
+    handleAddToList: PropTypes.func.isRequired
+}
 
 export default Carts;

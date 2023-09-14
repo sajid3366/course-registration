@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "https://www.example.com/images/image1.jpg",
+      "image": "https://i.ibb.co/CsBy67y/Rectangle-2.png",
       "title": "Introduction to Programming",
       "description": "Learn the fundamentals of programming with this introductory course.",
       "price": 49.99,
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "image": "https://www.example.com/images/image2.jpg",
+      "image": "https://i.ibb.co/wJznyQT/Rectangle-2-1.png",
       "title": "Web Development Bootcamp",
       "description": "Web Development Bootcamp. A comprehensive bootcamp for aspiring web developers.",
       "price": 149.99,
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "image": "https://www.example.com/images/image3.jpg",
+      "image": "https://i.ibb.co/Y2SB841/Rectangle-2-2.png",
       "title": "Data Science for Beginners",
       "description": "Get started with data science and analysis in this beginner-friendly course.",
       "price": 79.99,
@@ -25,7 +25,7 @@
     },
     {
       "id": 4,
-      "image": "https://www.example.com/images/image4.jpg",
+      "image": "https://i.ibb.co/NN2ftv3/Rectangle-2-3.png",
       "title": "Graphic Design Masterclass",
       "description": "Become a professional graphic designer with this in-depth masterclass.",
       "price": 99.99,
@@ -33,7 +33,7 @@
     },
     {
       "id": 5,
-      "image": "https://www.example.com/images/image5.jpg",
+      "image": "https://i.ibb.co/zHRfRNs/Rectangle-2-4.png",
       "title": "Digital Marketing Essentials",
       "description": "Digital Marketing. Learn the essentials of digital marketing and online advertising.",
       "price": 69.99,
@@ -41,7 +41,7 @@
     },
     {
       "id": 6,
-      "image": "https://www.example.com/images/image6.jpg",
+      "image": "https://i.ibb.co/98VYQyZ/Rectangle-2-5.png",
       "title": "Photography Basics",
       "description": "Master the fundamentals of photography and capture stunning images.",
       "price": 59.99,
@@ -49,7 +49,7 @@
     },
     {
       "id": 7,
-      "image": "https://www.example.com/images/image7.jpg",
+      "image": "https://i.ibb.co/ChXc1JT/Rectangle-2-6.png",
       "title": "Machine Learning Fundamentals",
       "description": "Dive into the world of machine learning with this foundational course.",
       "price": 89.99,
@@ -57,7 +57,7 @@
     },
     {
       "id": 8,
-      "image": "https://www.example.com/images/image8.jpg",
+      "image": "https://i.ibb.co/1TDfs9g/Rectangle-3.png",
       "title": "Business Ethics and Leadership",
       "description": "Business Ethics. Develop ethical leadership skills for a successful business career.",
       "price": 79.99,
@@ -65,7 +65,7 @@
     },
     {
       "id": 9,
-      "image": "https://www.example.com/images/image9.jpg",
+      "image": "https://i.ibb.co/hVZQ6gJ/Rectangle-3-1.png",
       "title": "Advanced JavaScript Programming",
       "description": "Take your JavaScript skills to the next level with advanced concepts.",
       "price": 69.99,
