@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import { FaDollarSign } from 'react-icons/fa';
 
+const Cart = ({ cart, handleAddToList, notify, notifyCreditHour }) => {
 
 
-const Cart = ({ cart, handleAddToList }) => {
     const { id, title, image, description, price, credit_hour } = cart;
     return (
         <div className='w-[300px] h-[400px] bg-white mb-6 rounded-lg p-4'>
@@ -18,15 +18,23 @@ const Cart = ({ cart, handleAddToList }) => {
                 </div>
                 <p>Credit: {credit_hour}hr</p>
             </div>
-            <button onClick={() =>handleAddToList(cart, id)} className=' w-full h-10 rounded-lg font-semibold text-lg text-white bg-[#2F80ED]'>Select</button>
+            <button onClick={() => { 
+                notify; 
+                notifyCreditHour;
+                handleAddToList(cart, id); }} className=' w-full h-10 rounded-lg font-semibold text-lg text-white bg-[#2F80ED]'>Select</button>
+
 
         </div>
+
     );
 };
 
 Cart.propTypes = {
     cart: PropTypes.object.isRequired,
-    handleAddToList: PropTypes.func.isRequired
+    handleAddToList: PropTypes.func.isRequired,
+    notify: PropTypes.func.isRequired,
+    notifyCreditHour: PropTypes.func.isRequired,
+
 }
 
 export default Cart;

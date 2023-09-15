@@ -8,27 +8,49 @@ import Lists from './components/Lists/Lists'
 function App() {
 
   
-
-
   const [lists, setLists] = useState([]);
   const [creditHour, setCreditHour] = useState(0);
   const [price, setPrice] = useState(0);
   const [creditRemaining, setCreditRemaining] = useState(20);
 
+
+  const notify = () => {
+    return toast('Already selected', {
+      position: "top-center",
+      autoClose: 4000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
+  }
+  const notifyCreditHour =()=>{
+    return toast('Insufficient credit hour', {
+      position: "top-center",
+      autoClose: 4000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
+
+  }
+
   const handleAddToList = (list, id) => {
 
     const isSelected = lists.find(list => list.id == id);
     let totalCreditHour = list.credit_hour;
-    console.log(list.credit_hour);
 
     let totalPrice = list.price;
 
 
     if (isSelected) {
-      return alert('Already selected');
-      const notify = () => {
-        toast("Wow so easy !");
-      }
+      notify();
+
     }
     else {
       lists.forEach(item => {
@@ -40,7 +62,7 @@ function App() {
 
 
       if (totalCreditRemaining < 0) {
-        alert('insufficient credit');
+        notifyCreditHour();
 
       }
       else {
@@ -70,6 +92,8 @@ function App() {
       <div className='md:flex m-auto max-w-7xl'>
         <Carts
           handleAddToList={handleAddToList}
+          notify={notify}
+          notifyCreditHour={notifyCreditHour}
 
         ></Carts>
 
@@ -81,11 +105,22 @@ function App() {
           creditRemaining={creditRemaining}
 
         ></Lists>
-        <ToastContainer />
+
 
       </div>
 
-
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
 
 
 
