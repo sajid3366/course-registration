@@ -17,7 +17,7 @@ function App() {
   const notify = () => {
     return toast('Already selected', {
       position: "top-center",
-      autoClose: 4000,
+      autoClose: 3000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -29,7 +29,7 @@ function App() {
   const notifyCreditHour =()=>{
     return toast('Insufficient credit hour', {
       position: "top-center",
-      autoClose: 4000,
+      autoClose: 3000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -74,14 +74,10 @@ function App() {
       }
 
 
-
-
-
     }
 
 
   }
-
 
 
 

@@ -1,75 +1,74 @@
 [
-    {
+  {
       "id": 1,
-      "image": "https://i.ibb.co/CsBy67y/Rectangle-2.png",
-      "title": "Introduction to Programming",
-      "description": "Learn the fundamentals of programming with this introductory course.",
+      "image": "https://i.ibb.co/Y2SB841/Rectangle-2-2.png",
+      "title": "Introduction to C Programming",
+      "description": "Explore C Programming basics. Build a strong coding foundation. Get started on your coding journey!",
       "price": 15000,
       "credit_hour": 3
-    },
-    {
+  },
+  {
       "id": 2,
-      "image": "https://i.ibb.co/wJznyQT/Rectangle-2-1.png",
-      "title": "Web Development Bootcamp",
-      "description": "Web Development Bootcamp. A comprehensive bootcamp for aspiring web developers.",
+      "image": "https://i.ibb.co/NN2ftv3/Rectangle-2-3.png",
+      "title": "Introduction to Algorithms",
+      "description": "Master web development algorithms. Essential for aspiring web developers. Join our comprehensive bootcamp.",
       "price": 5000,
       "credit_hour": 5
-    },
-    {
+  },
+  {
       "id": 3,
-      "image": "https://i.ibb.co/Y2SB841/Rectangle-2-2.png",
-      "title": "Data Science for Beginners",
-      "description": "Get started with data science and analysis in this beginner-friendly course.",
+      "image": "https://i.ibb.co/zHRfRNs/Rectangle-2-4.png",
+      "title": "Introduction to C++ for DSA",
+      "description": "Learn C++ for data analysis. Begin your journey into data science. Enroll now!",
       "price": 7000,
       "credit_hour": 4
-    },
-    {
+  },
+  {
       "id": 4,
-      "image": "https://i.ibb.co/NN2ftv3/Rectangle-2-3.png",
-      "title": "Graphic Design Masterclass",
-      "description": "Become a professional graphic designer with this in-depth masterclass.",
+      "image": "https://i.ibb.co/1TDfs9g/Rectangle-3.png",
+      "title": "Basic Data Structures",
+      "description": "Enhance graphic design skills. Dive into data structures. Unlock your creative potential!",
       "price": 10000,
       "credit_hour": 6
-    },
-    {
+  },
+  {
       "id": 5,
-      "image": "https://i.ibb.co/zHRfRNs/Rectangle-2-4.png",
-      "title": "Digital Marketing Essentials",
-      "description": "Digital Marketing. Learn the essentials of digital marketing and online advertising.",
+      "image": "https://i.ibb.co/CsBy67y/Rectangle-2.png",
+      "title": "Introduction to OOP Python",
+      "description": "Explore digital marketing essentials. Master online advertising with OOP Python. Start today!",
       "price": 9000,
       "credit_hour": 4
-    },
-    {
+  },
+  {
       "id": 6,
       "image": "https://i.ibb.co/98VYQyZ/Rectangle-2-5.png",
-      "title": "Photography Basics",
-      "description": "Master the fundamentals of photography and capture stunning images.",
+      "title": "Software Engineering",
+      "description": "Capture stunning images. Master software engineering for photography. Elevate your skills!",
       "price": 5500,
       "credit_hour": 3
-    },
-    {
+  },
+  {
       "id": 7,
-      "image": "https://i.ibb.co/ChXc1JT/Rectangle-2-6.png",
-      "title": "Machine Learning Fundamentals",
-      "description": "Dive into the world of machine learning with this foundational course.",
+      "image": "https://i.ibb.co/hVZQ6gJ/Rectangle-3-1.png",
+      "title": "AWS, Cloud Computing",
+      "description": "Dive into machine learning. Explore AWS and Cloud Computing foundations. Unlock new possibilities!",
       "price": 35000,
       "credit_hour": 5
-    },
-    {
+  },
+  {
       "id": 8,
-      "image": "https://i.ibb.co/1TDfs9g/Rectangle-3.png",
-      "title": "Business Ethics and Leadership",
-      "description": "Business Ethics. Develop ethical leadership skills for a successful business career.",
+      "image": "https://i.ibb.co/wJznyQT/Rectangle-2-1.png",
+      "title": "Database (MySQL)",
+      "description": "Cultivate ethical leadership. Learn business ethics principles with Database (MySQL). Success awaits!",
       "price": 25000,
       "credit_hour": 4
-    },
-    {
+  },
+  {
       "id": 9,
-      "image": "https://i.ibb.co/hVZQ6gJ/Rectangle-3-1.png",
-      "title": "Advanced JavaScript Programming",
-      "description": "Take your JavaScript skills to the next level with advanced concepts.",
+      "image": "https://i.ibb.co/ChXc1JT/Rectangle-2-6.png",
+      "title": "Problem-Solving Part",
+      "description": "Elevate JavaScript skills. Master problem-solving with advanced concepts. Unleash your potential!",
       "price": 20000,
       "credit_hour": 2
-    }
-  ]
-  
+  }
+]
