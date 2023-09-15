@@ -8,5 +8,5 @@ Add at least 3 Project features
 Discuss how you managed the state in your assignment project.
 
 => I use side effect as useEffect for fetch data from data.json file and set those data into setCarts which is a useState hooks in Carts.jsx.
-=> After fetching data I use useState hook in App.jsx and set the innitial value as an empty array. Then set a new array in that useState. 
-=> I also use in App.jsx useState for credit hour, total price and remaining credit hour. Remaining credit hour useState innitial value is 20.
+=> After fetching data I use useState hook in App.jsx and set the initial value as an empty array. Then set a new array in that useState. 
+=> I also use in App.jsx useState for credit hour, total price and remaining credit hour. Remaining credit hour useState initial value is 20.
