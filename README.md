@@ -1,6 +1,6 @@
 # Learn and Gain 
 
-[Course Registration]("https://peaceful-ship.surge.sh/")
+[Course Registration](https://peaceful-ship.surge.sh/)
 
 
 Features of the Proejct
